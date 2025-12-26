@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Badger - Texas Wildlife Guide</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+      background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 20%, #7CB342 40%, #8B7355 60%, #D4A574 80%, #87CEEB 100%);
+      background-size: 400% 400%;
+      animation: gradientShift 20s ease infinite;
+      color: #3E2723;
+      padding: 30px 20px;
+      min-height: 100vh;
+    }
+    
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .back-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #228B22;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .back-button:hover {
+      background: #32CD32;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    }
+    
+    h1 {
+      text-align: center;
+      color: #5D4037;
+      font-size: 3em;
+      text-shadow: 2px 2px 4px rgba(255,255,255,0.8);
+      margin-bottom: 30px;
+      padding: 20px;
+      background: linear-gradient(135deg, rgba(255,248,220,0.95) 0%, rgba(245,222,179,0.95) 100%);
+      border-radius: 20px;
+      border: 4px solid #8B7355;
+    }
+    
+    h2 {
+      color: #33691E;
+      font-size: 2em;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px dotted rgba(139,115,85,0.6);
+    }
+    
+    h3 {
+      color: #5D4037;
+      font-size: 1.5em;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .content-section {
+      background: linear-gradient(135deg, rgba(245,245,220,0.95) 0%, rgba(255,248,220,0.95) 100%);
+      backdrop-filter: blur(10px);
+      border: 3px solid rgba(139,115,85,0.5);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 10px 30px rgba(62,39,35,0.2);
+      transition: all 0.3s ease;
+    }
+    
+    .content-section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(62,39,35,0.3);
+    }
+    
+    p {
+      line-height: 1.8;
+      font-size: 1.15em;
+      margin-bottom: 15px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 15px 0;
+    }
+    
+    ul li {
+      padding: 12px 20px;
+      margin: 8px 0;
+      background: linear-gradient(90deg, #FFF8DC 0%, #FFFAF0 100%);
+      border-radius: 25px;
+      border-left: 5px solid #228B22;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    }
+    
+    ul li:nth-child(even) {
+      background: linear-gradient(90deg, #B0E0E6 0%, #E0F6FF 100%);
+    }
+    
+    ul li:hover {
+      transform: translateX(10px) scale(1.05);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+    
+    .fun-fact {
+      background: linear-gradient(90deg, #FFE4B5 0%, #FFDAB9 100%);
+      border-left: 5px solid #CD853F;
+      padding: 20px;
+      border-radius: 15px;
+      margin: 20px 0;
+      font-size: 1.1em;
+    }
+    
+    .deer-image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      border: 5px solid #228B22;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+    
+    <h1>🦡 Meet the Badger!</h1>
+    
+    <img src="../images/badger.jpg" alt="Badger in Texas" class="deer-image">
+    
+    <div class="content-section">
+      <h2>🌈 What Do They Look Like?</h2>
+      <p>Badgers are medium-sized furry animals with:</p>
+      <ul>
+        <li>Short black legs for digging fast 🕳️</li>
+        <li>Yellowish-gray fur with a cool white stripe from their head to their nose</li>
+        <li>White cheeks and a black patch near each ear</li>
+        <li>Long front claws—like tiny shovels for digging tunnels!</li>
+      </ul>
+      <p>They look like little underground explorers!</p>
+    </div>
+    
+    <div class="content-section">
+      <h2>📍 Where Do They Live?</h2>
+      <p>Badgers live mostly in the western two-thirds of Texas. You'll find them in:</p>
+      <ul>
+        <li>Open grasslands 🌾</li>
+        <li>Deserts and chaparrals 🌵</li>
+        <li>Mesquite-covered areas 🌿</li>
+      </ul>
+      <p>They love places where they can dig and hide!</p>
+    </div>
+    
+    <div class="content-section">
+      <h2>🥩 What Do They Eat?</h2>
+      <p>Badgers are carnivores, which means they eat meat! Their favorite snacks are:</p>
+      <ul>
+        <li>Small rodents like mice 🐭</li>
+        <li>They dig them up from underground using their strong claws!</li>
+      </ul>
+      <p>They also dig out cozy burrows to sleep in and raise their babies.</p>
+    </div>
+    
+    <div class="content-section">
+      <h2>🔄 Life Cycle & Cool Behaviors of Badgers</h2>
+      
+      <h3>🐣 Baby to Grown-Up</h3>
+      <ul>
+        <li>Badgers breed in summer, mostly in July and August</li>
+        <li>They have 2 to 5 babies in one litter each year</li>
+        <li>Baby badgers are born in underground dens where it's safe and warm</li>
+        <li>In captivity (like zoos), badgers can live up to 12 years!</li>
+      </ul>
+      
+      <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+      <p>Badgers are digging champions! Here's how they stay safe and strong:</p>
+      <ul>
+        <li>Their long claws help them dig tunnels and catch food</li>
+        <li>Their stripey face helps them blend into the grass and dirt</li>
+        <li>They build burrows to hide from predators and bad weather</li>
+      </ul>
+      
+      <h3>❄️ Do Badgers Hibernate?</h3>
+      <p>Nope! Badgers don't hibernate. Instead:</p>
+      <ul>
+        <li>They stay active all year long</li>
+        <li>They spend more time in their burrows when it's cold</li>
+        <li>Their thick fur helps keep them warm in chilly weather ❄️</li>
+      </ul>
+    </div>
+    
+    <div class="fun-fact">
+      <strong>🌟 Fun Fact:</strong> Badgers are super-fast diggers! They can dig a hole faster than a person with a shovel. Some badgers can dig themselves completely underground in just a few minutes to escape danger. They're like furry excavators! 🚧🕳️
+    </div>
+    
+    <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+  </div>
+</body>
+</html>
