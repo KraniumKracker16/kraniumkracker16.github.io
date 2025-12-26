@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦃 Meet the Turkey!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 25%, #7CB342 50%, #8B7355 75%, #D4A574 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+        }
+
+        .back-button:hover {
+            background: #1a6b1a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+        }
+
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.2);
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .content-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5E6D3 100%);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 15px;
+            border-left: 5px solid #8B4513;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #5D4037;
+            font-size: 1.5em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 12px;
+            background: linear-gradient(90deg, #87CEEB 0%, #FFF8DC 100%);
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        li:nth-child(even) {
+            background: linear-gradient(90deg, #98D8C8 0%, #FFFACD 100%);
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFDAB9 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 3px dashed #D2691E;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.2);
+        }
+
+        .fun-fact h3 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #8B4513;
+        }
+        
+        .deer-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border: 5px solid #228B22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+        
+        <h1>🦃 Meet the Turkey!</h1>
+        
+        <img src="../images/turkey.jpg" alt="Turkey in Texas" class="deer-image">
+
+        <div class="content-section">
+            <h2>🌈 What Do They Look Like?</h2>
+            <p>Wild turkeys are BIG birds—they're the largest game birds in Texas! They have:</p>
+            <ul>
+                <li>Dark brown and bronze feathers that shine in the sun ✨</li>
+                <li>Males (called "toms") have colorful heads with red, white, and blue skin!</li>
+                <li>A long, dangly thing called a "wattle" under their chin</li>
+                <li>A "snood" - a fleshy part that hangs over their beak</li>
+                <li>Males have a "beard" - dark feathers hanging from their chest</li>
+                <li>Big, fan-shaped tails they spread out to show off</li>
+            </ul>
+            <p><strong>Males can weigh up to 20 pounds—that's heavier than a bowling ball!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>📍 Where Do They Live?</h2>
+            <p>Wild turkeys are found all over Texas! You'll find them in:</p>
+            <ul>
+                <li>Forests with oak and pecan trees 🌳</li>
+                <li>Areas near rivers and streams 🌊</li>
+                <li>Open grasslands mixed with trees 🌾</li>
+                <li>Sometimes in neighborhoods and parks</li>
+            </ul>
+            <p><strong>They roost (sleep) in trees at night to stay safe from predators!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🌾 What Do They Eat?</h2>
+            <p>Wild turkeys eat many different foods. Their favorites include:</p>
+            <ul>
+                <li>Acorns and pecans 🌰</li>
+                <li>Seeds and grains 🌱</li>
+                <li>Berries and fruits 🫐</li>
+                <li>Insects, grasshoppers, and beetles 🐜</li>
+                <li>Green plants and grasses 🌿</li>
+            </ul>
+            <p><strong>They scratch the ground with their big feet to find food!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🔄 Life Cycle & Cool Behaviors of Turkeys</h2>
+            
+            <h3>🐣 Baby to Grown-Up</h3>
+            <ul>
+                <li>Female turkeys (called "hens") lay 10 to 12 eggs in a nest on the ground</li>
+                <li>Baby turkeys (called "poults") can walk and find food within a day of hatching!</li>
+                <li>Poults can fly up into trees when they're only 2 weeks old</li>
+                <li>They stay with their mother for several months, learning survival skills</li>
+            </ul>
+
+            <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+            <p>Wild turkeys are smart and alert birds!</p>
+            <ul>
+                <li>They have excellent eyesight and can see in color</li>
+                <li>They can run up to 25 miles per hour!</li>
+                <li>They can fly up to 55 miles per hour for short distances</li>
+                <li>Their dark feathers help them hide in the forest</li>
+                <li>They sleep in trees to stay safe from coyotes and other predators</li>
+            </ul>
+
+            <h3>🎵 The Famous "Gobble-Gobble!" Call</h3>
+            <p>Turkeys make lots of different sounds!</p>
+            <ul>
+                <li>Males make the famous "gobble-gobble-gobble!" sound 🎶</li>
+                <li>You can hear a gobble from a mile away!</li>
+                <li>Hens make soft "yelps" and "clucks"</li>
+                <li>Males gobble to attract females and show off their territory</li>
+                <li>They make a "putt" alarm call when they sense danger</li>
+            </ul>
+
+            <h3>💃 Turkey Display</h3>
+            <p>Male turkeys do a fancy display to impress females!</p>
+            <ul>
+                <li>They puff up their feathers to look bigger</li>
+                <li>They spread their tail feathers into a beautiful fan</li>
+                <li>Their head turns bright red and blue</li>
+                <li>They strut around, dragging their wings on the ground</li>
+            </ul>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🎉 Fun Fact!</h3>
+            <p><strong>Benjamin Franklin wanted the turkey to be America's national bird instead of the bald eagle! He thought turkeys were smart, brave, and truly American birds!</strong></p>
+        </div>
+    </div>
+</body>
+</html>

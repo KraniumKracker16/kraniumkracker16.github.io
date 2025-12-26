@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦊 Meet the Kit Fox & Swift Fox!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 25%, #7CB342 50%, #8B7355 75%, #D4A574 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+        }
+
+        .back-button:hover {
+            background: #1a6b1a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+        }
+
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.2);
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .content-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5E6D3 100%);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 15px;
+            border-left: 5px solid #8B4513;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #5D4037;
+            font-size: 1.5em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 12px;
+            background: linear-gradient(90deg, #87CEEB 0%, #FFF8DC 100%);
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        li:nth-child(even) {
+            background: linear-gradient(90deg, #98D8C8 0%, #FFFACD 100%);
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFDAB9 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 3px dashed #D2691E;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.2);
+        }
+
+        .fun-fact h3 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #8B4513;
+        }
+        
+        .deer-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border: 5px solid #228B22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+        
+        <h1>🦊 Meet the Kit Fox & Swift Fox!</h1>
+        
+        <img src="../images/kit-fox.jpg" alt="Kit Fox in Texas" class="deer-image">
+
+        <div class="content-section">
+            <h2>🌈 What Do They Look Like?</h2>
+            <p>These foxes are small to medium-sized and super cute! They have:</p>
+            <ul>
+                <li>Pale gray to yellowish fur on top</li>
+                <li>A white belly</li>
+                <li>A black-tipped tail—like a paintbrush dipped in ink! 🖌️</li>
+                <li>Kit foxes have big ears to help them hear tiny sounds</li>
+                <li>Swift foxes have smaller ears, but they're just as speedy!</li>
+            </ul>
+            <p><strong>They're desert explorers with awesome hearing and fluffy tails!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>📍 Where Do They Live?</h2>
+            <p>These foxes live in different parts of Texas:</p>
+            <ul>
+                <li>Kit foxes live in the Trans-Pecos region (far west Texas) 🏜️</li>
+                <li>Swift foxes live in the western and central Panhandle 🌾</li>
+            </ul>
+            <p><strong>They love open deserts and plains with short plants and lots of space to run!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🥩 What Do They Eat?</h2>
+            <p>Kit and swift foxes are carnivores, which means they eat meat! Their favorite foods include:</p>
+            <ul>
+                <li>Small rodents like mice 🐭</li>
+                <li>Insects like grasshoppers and beetles 🐜</li>
+            </ul>
+            <p><strong>They're nocturnal, so they come out at night to hunt and explore 🌙</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🔄 Life Cycle & Cool Behaviors of Kit & Swift Foxes</h2>
+            
+            <h3>🐣 Baby to Grown-Up</h3>
+            <ul>
+                <li>These foxes have 4 to 7 pups in February through April</li>
+                <li>Baby foxes are born in ground burrows, where it's safe and cozy</li>
+                <li>The pups stay in the den while their parents bring them food and care for them</li>
+            </ul>
+
+            <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+            <p>Kit and swift foxes are desert-smart and super sneaky! Here's how they stay safe:</p>
+            <ul>
+                <li>Their light-colored fur helps them blend into the desert</li>
+                <li>Their big ears (especially kit foxes!) help them hear prey underground</li>
+                <li>They dig burrows to stay cool during hot days and hide from predators</li>
+            </ul>
+
+            <h3>❄️ Do Kit or Swift Foxes Hibernate?</h3>
+            <p>Nope! These foxes don't hibernate. Instead:</p>
+            <ul>
+                <li>They stay active all year long</li>
+                <li>They hunt at night when it's cooler</li>
+                <li>Their burrows help them stay warm in winter and cool in summer ❄️☀️</li>
+            </ul>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🎉 Fun Challenge!</h3>
+            <p><strong>Want to play a "Fox Ear Match" game or design your own desert den next?</strong></p>
+        </div>
+    </div>
+</body>
+</html>

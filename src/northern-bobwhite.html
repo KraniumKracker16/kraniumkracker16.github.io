@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐦 Meet the Northern Bobwhite Quail!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 25%, #7CB342 50%, #8B7355 75%, #D4A574 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+        }
+
+        .back-button:hover {
+            background: #1a6b1a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+        }
+
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.2);
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .content-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5E6D3 100%);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 15px;
+            border-left: 5px solid #8B4513;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #5D4037;
+            font-size: 1.5em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 12px;
+            background: linear-gradient(90deg, #87CEEB 0%, #FFF8DC 100%);
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        li:nth-child(even) {
+            background: linear-gradient(90deg, #98D8C8 0%, #FFFACD 100%);
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFDAB9 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 3px dashed #D2691E;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.2);
+        }
+
+        .fun-fact h3 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #8B4513;
+        }
+        
+        .deer-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border: 5px solid #228B22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+        
+        <h1>🐦 Meet the Northern Bobwhite Quail!</h1>
+        
+        <img src="../images/northern-bobwhite.jpg" alt="Northern Bobwhite Quail in Texas" class="deer-image">
+
+        <div class="content-section">
+            <h2>🌈 What Do They Look Like?</h2>
+            <p>Northern Bobwhite quail are small birds that look like tiny chickens! They have:</p>
+            <ul>
+                <li>Brown and white striped feathers that help them hide in grass</li>
+                <li>Strong legs for running fast on the ground</li>
+                <li>Short wings—they only fly for short distances when they need to escape</li>
+                <li>Males have a white throat and eyebrow stripe</li>
+            </ul>
+            <p><strong>They're about the size of your hand and love to run instead of fly!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>📍 Where Do They Live?</h2>
+            <p>Northern Bobwhite quail are found in eastern Texas. You'll find them in:</p>
+            <ul>
+                <li>Grasslands and fields 🌾</li>
+                <li>Brushy areas with lots of cover 🌿</li>
+                <li>Farm edges and pastures</li>
+            </ul>
+            <p><strong>They like places where they can hide from predators and find lots of seeds!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🌾 What Do They Eat?</h2>
+            <p>Bobwhite quail search the ground for food. Their favorite foods include:</p>
+            <ul>
+                <li>Seeds from grasses and plants 🌱</li>
+                <li>Bugs and insects 🐜</li>
+                <li>Berries and small fruits 🫐</li>
+            </ul>
+            <p><strong>They peck at the ground like chickens, looking for yummy snacks!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🔄 Life Cycle & Cool Behaviors of Northern Bobwhite</h2>
+            
+            <h3>🐣 Baby to Grown-Up</h3>
+            <ul>
+                <li>Female quail lay 12 to 16 eggs in a nest on the ground</li>
+                <li>Baby quail can run and peck for food as soon as they hatch!</li>
+                <li>They stay together as a family group called a "covey"</li>
+                <li>Chicks grow up quickly and learn to fly in just 2 weeks</li>
+            </ul>
+
+            <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+            <p>Bobwhite quail are smart little birds! Here's how they stay safe:</p>
+            <ul>
+                <li>Their brown feathers help them blend in with grass and leaves</li>
+                <li>They run zigzag to confuse predators</li>
+                <li>When danger comes, they burst into the air all at once—confusing the predator!</li>
+                <li>They huddle together in a circle at night to stay warm</li>
+            </ul>
+
+            <h3>🎵 The Famous "Bob-Bob-White!" Call</h3>
+            <p>The Northern Bobwhite got its name from its call!</p>
+            <ul>
+                <li>Males whistle "bob-bob-white!" to call their family together</li>
+                <li>It sounds like they're saying their own name!</li>
+                <li>You can hear them calling especially in spring and summer 🎶</li>
+            </ul>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🎉 Fun Challenge!</h3>
+            <p><strong>Can you practice making the "bob-bob-white!" whistle sound? Try calling like a quail and see if anyone can guess what bird you are!</strong></p>
+        </div>
+    </div>
+</body>
+</html>

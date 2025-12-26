@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾 Meet the Virginia Opossum!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 25%, #7CB342 50%, #8B7355 75%, #D4A574 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+        }
+
+        .back-button:hover {
+            background: #1a6b1a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+        }
+
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.2);
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .content-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5E6D3 100%);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 15px;
+            border-left: 5px solid #8B4513;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #5D4037;
+            font-size: 1.5em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 12px;
+            background: linear-gradient(90deg, #87CEEB 0%, #FFF8DC 100%);
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        li:nth-child(even) {
+            background: linear-gradient(90deg, #98D8C8 0%, #FFFACD 100%);
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFDAB9 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 3px dashed #D2691E;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.2);
+        }
+
+        .fun-fact h3 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #8B4513;
+        }
+        
+        .deer-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border: 5px solid #228B22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+        
+        <h1>🐾 Meet the Virginia Opossum!</h1>
+        
+        <img src="../images/virginia-opossum.jpg" alt="Virginia Opossum in Texas" class="deer-image">
+
+        <div class="content-section">
+            <h2>🌈 What Do They Look Like?</h2>
+            <p>Virginia opossums are small to medium-sized furry animals with:</p>
+            <ul>
+                <li>Gray or dark gray fur</li>
+                <li>A white face and small ears</li>
+                <li>A long, round tail that looks like a rat's tail—but it's super cool because it can grab onto branches like a hand! 🐀🌿</li>
+            </ul>
+            <p><strong>They're the only marsupial (pouch animal) in all of North America—like kangaroos, but way smaller!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>📍 Where Do They Live?</h2>
+            <p>Opossums live all across Texas. You'll find them in:</p>
+            <ul>
+                <li>Woodlands and forests 🌳</li>
+                <li>Near rivers, ponds, and lakes 💧</li>
+                <li>Farming areas and even under buildings 🏚️</li>
+            </ul>
+            <p><strong>They love places with lots of hiding spots and yummy snacks!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🍽️ What Do They Eat?</h2>
+            <p>Opossums are omnivores, which means they eat both plants and animals! Their menu includes:</p>
+            <ul>
+                <li>Fruits, nuts, and veggies 🍎🌰🥕</li>
+                <li>Meat, eggs, and insects 🥚🐜</li>
+                <li>Carrion (meat from animals that have already died)</li>
+            </ul>
+            <p><strong>They're nocturnal, so they come out at night to explore and eat 🌙</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🔄 Life Cycle & Cool Behaviors of Opossums</h2>
+            
+            <h3>🐣 Baby to Grown-Up</h3>
+            <ul>
+                <li>Opossums can have lots of babies—up to 14 in one litter!</li>
+                <li>Babies are born tiny and helpless, and they crawl into their mom's pouch to grow safely 🍼</li>
+                <li>After a few months, they ride on their mom's back, holding on with their tails—like a piggyback parade! 🐾🎒</li>
+            </ul>
+
+            <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+            <p>Opossums are clever and tough! Here's how they stay safe:</p>
+            <ul>
+                <li>Their grippy tails help them climb and hang onto branches</li>
+                <li>They play dead when scared—like a surprise trick to fool predators 😴</li>
+                <li>Their pouch keeps babies safe and warm</li>
+            </ul>
+
+            <h3>❄️ Do Opossums Hibernate?</h3>
+            <p>Nope! Virginia opossums don't hibernate. Instead:</p>
+            <ul>
+                <li>They stay active all year long</li>
+                <li>They hide in cozy dens during cold weather</li>
+                <li>Their thick fur helps keep them warm ❄️</li>
+            </ul>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🎉 Fun Challenge!</h3>
+            <p><strong>Want to play a "Pouch Parade" game or draw your own opossum tail next?</strong></p>
+        </div>
+    </div>
+</body>
+</html>

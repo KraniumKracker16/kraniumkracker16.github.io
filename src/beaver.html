@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beaver - Texas Wildlife Guide</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+      background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 20%, #7CB342 40%, #8B7355 60%, #D4A574 80%, #87CEEB 100%);
+      background-size: 400% 400%;
+      animation: gradientShift 20s ease infinite;
+      color: #3E2723;
+      padding: 30px 20px;
+      min-height: 100vh;
+    }
+    
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    
+    .back-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #228B22;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    .back-button:hover {
+      background: #32CD32;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 10px rgba(0,0,0,0.2);
+    }
+    
+    h1 {
+      text-align: center;
+      color: #5D4037;
+      font-size: 3em;
+      text-shadow: 2px 2px 4px rgba(255,255,255,0.8);
+      margin-bottom: 30px;
+      padding: 20px;
+      background: linear-gradient(135deg, rgba(255,248,220,0.95) 0%, rgba(245,222,179,0.95) 100%);
+      border-radius: 20px;
+      border: 4px solid #8B7355;
+    }
+    
+    h2 {
+      color: #33691E;
+      font-size: 2em;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 3px dotted rgba(139,115,85,0.6);
+    }
+    
+    h3 {
+      color: #5D4037;
+      font-size: 1.5em;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .content-section {
+      background: linear-gradient(135deg, rgba(245,245,220,0.95) 0%, rgba(255,248,220,0.95) 100%);
+      backdrop-filter: blur(10px);
+      border: 3px solid rgba(139,115,85,0.5);
+      border-radius: 20px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0 10px 30px rgba(62,39,35,0.2);
+      transition: all 0.3s ease;
+    }
+    
+    .content-section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 40px rgba(62,39,35,0.3);
+    }
+    
+    p {
+      line-height: 1.8;
+      font-size: 1.15em;
+      margin-bottom: 15px;
+    }
+    
+    ul {
+      list-style-type: none;
+      margin: 15px 0;
+    }
+    
+    ul li {
+      padding: 12px 20px;
+      margin: 8px 0;
+      background: linear-gradient(90deg, #FFF8DC 0%, #FFFAF0 100%);
+      border-radius: 25px;
+      border-left: 5px solid #228B22;
+      font-size: 1.1em;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    }
+    
+    ul li:nth-child(even) {
+      background: linear-gradient(90deg, #B0E0E6 0%, #E0F6FF 100%);
+    }
+    
+    ul li:hover {
+      transform: translateX(10px) scale(1.05);
+      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+    }
+    
+    .fun-fact {
+      background: linear-gradient(90deg, #FFE4B5 0%, #FFDAB9 100%);
+      border-left: 5px solid #CD853F;
+      padding: 20px;
+      border-radius: 15px;
+      margin: 20px 0;
+      font-size: 1.1em;
+    }
+    
+    .deer-image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      border: 5px solid #228B22;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+    
+    <h1>🦫 Meet the Beaver!</h1>
+    
+    <img src="../images/beaver.jpg" alt="Beaver in Texas" class="deer-image">
+    
+    <div class="content-section">
+      <h2>🌈 What Do They Look Like?</h2>
+      <p>Beavers are medium-sized furry rodents with:</p>
+      <ul>
+        <li>Brown fur that keeps them warm and dry</li>
+        <li>A flat, scaly tail shaped like a paddle 🛶</li>
+        <li>Big chestnut-colored front teeth for chewing wood 🪵</li>
+        <li>Webbed feet that help them swim like little water ninjas!</li>
+      </ul>
+      <p>They're amazing builders and love the water!</p>
+    </div>
+    
+    <div class="content-section">
+      <h2>📍 Where Do They Live?</h2>
+      <p>Beavers live all over Texas, especially in the eastern half and near the Rio Grande River. You'll find them in:</p>
+      <ul>
+        <li>Streams and ponds 💧</li>
+        <li>Lakes with trees like cottonwoods, willows, and alders 🌳</li>
+      </ul>
+      <p>They build cozy homes called lodges out of sticks, logs, and mud, and sometimes dig burrows in riverbanks.</p>
+    </div>
+    
+    <div class="content-section">
+      <h2>🥗 What Do They Eat?</h2>
+      <p>Beavers are plant-eaters! Their favorite foods are:</p>
+      <ul>
+        <li>Bark and twigs from trees 🌿</li>
+        <li>They leave behind V-shaped stumps after chewing!</li>
+      </ul>
+      <p>They even store branches underwater near their lodge so they have snacks ready for winter!</p>
+    </div>
+    
+    <div class="content-section">
+      <h2>🔄 Life Cycle & Cool Behaviors of Beavers</h2>
+      
+      <h3>🐣 Baby to Grown-Up</h3>
+      <ul>
+        <li>Baby beavers are called kits 🐾</li>
+        <li>They're born in spring and early summer (April to July)</li>
+        <li>Each beaver family has 2 to 4 kits</li>
+        <li>Beavers can live up to 11 years in the wild!</li>
+      </ul>
+      
+      <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+      <p>Beavers are nature's engineers! Here's how they stay safe and smart:</p>
+      <ul>
+        <li>They build dams to slow down water and make ponds for their homes</li>
+        <li>Their webbed feet help them swim fast</li>
+        <li>Their strong teeth help them cut wood and build lodges</li>
+        <li>They make underwater tunnels to sneak in and out of their homes!</li>
+      </ul>
+      
+      <h3>❄️ Do Beavers Hibernate?</h3>
+      <p>Nope! Beavers don't hibernate. Instead:</p>
+      <ul>
+        <li>They stay active all year</li>
+        <li>They store food underwater so they can eat during winter</li>
+        <li>Their thick fur and warm lodges keep them cozy when it's cold ❄️</li>
+      </ul>
+    </div>
+    
+    <div class="fun-fact">
+      <strong>🌟 Fun Fact:</strong> Beavers' teeth never stop growing! They have to keep chewing on wood to wear them down, or their teeth would get too long. Their teeth are orange because they have special iron in them that makes them super strong—perfect for chomping trees! 🦷🌳
+    </div>
+    
+    <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+  </div>
+</body>
+</html>

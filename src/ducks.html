@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🦆 Ducks: The Feathered Travelers of Texas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 25%, #7CB342 50%, #8B7355 75%, #D4A574 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+        }
+
+        .back-button:hover {
+            background: #1a6b1a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+        }
+
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.2);
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .content-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5E6D3 100%);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 15px;
+            border-left: 5px solid #8B4513;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #5D4037;
+            font-size: 1.5em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 12px;
+            background: linear-gradient(90deg, #87CEEB 0%, #FFF8DC 100%);
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        li:nth-child(even) {
+            background: linear-gradient(90deg, #98D8C8 0%, #FFFACD 100%);
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFDAB9 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 3px dashed #D2691E;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.2);
+        }
+
+        .fun-fact h3 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #8B4513;
+        }
+        
+        .deer-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border: 5px solid #228B22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+        
+        <h1>🦆 Ducks: The Feathered Travelers of Texas</h1>
+        
+        <img src="../images/ducks.jpg" alt="Ducks in Texas" class="deer-image">
+
+        <div class="content-section">
+            <p>Did you know that Texas becomes a giant duck hotel every winter? Hundreds of thousands of ducks fly all the way from northern states and even Canada to spend the colder months here. After a long migration, Texas wetlands become their warm, comfy vacation spot!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🌿 What Makes a Duck… a Duck?</h2>
+            <p>Ducks are wetland birds, which means they live around water—marshes, ponds, lakes, slow rivers, and sometimes even bays. Their bodies are built perfectly for life on the water:</p>
+            <ul>
+                <li><strong>Webbed feet</strong> act like paddles, helping them swim fast.</li>
+                <li><strong>Special bills</strong> help them eat:
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li>Some ducks have flat, wide bills (like the shoveler) for scooping food.</li>
+                        <li>Others have serrated, tooth-like edges (like mergansers) for catching slippery prey.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>🎨 Colorful Feathers & Seasonal Makeovers</h2>
+            <p>Male ducks, called <strong>drakes</strong>, are usually the colorful ones—bright greens, blues, reds, and patterns that look like nature's artwork. But after breeding season, something interesting happens…</p>
+            <p>They go through <strong>eclipse plumage</strong>, which is like a feather makeover. They shed old feathers and grow new ones, and during this time, the males look almost exactly like the females! After a few weeks, their bright colors return for winter or the next breeding season.</p>
+            <p>Ducks shed their wing feathers only once a year, and these feathers keep the same colors and patterns. Scientists and wildlife experts can use these wing feathers to identify duck species.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🥚 Duck Families</h2>
+            <p>Ducks lay anywhere from <strong>4 to 18 eggs</strong>, depending on the species. Mergansers, for example, are known for having very large clutches!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🦆 "Puddle Ducks": The Dabbling Experts</h2>
+            <p>Not all ducks feed the same way. <strong>"Puddle ducks,"</strong> also called <strong>dabbling ducks</strong>, are the ones you often see in shallow water.</p>
+            
+            <h3>🌊 What Makes a Puddle Duck Special?</h3>
+            <ul>
+                <li>They feed by tipping forward—heads underwater, tails sticking up!</li>
+                <li>They eat water plants, seeds, and grains.</li>
+                <li>They live in marshes, ponds, lakes, slow rivers, and sometimes bays.</li>
+                <li>They can jump straight into the air when taking off—no running start needed!</li>
+                <li>Their legs are placed more toward the center of their body, so they walk easily on land.</li>
+                <li>Most have a shiny, colorful <strong>speculum</strong>—a bright patch on their wings that glows in the sunlight.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>🦆 Diving Ducks: The Deep‑Water Swimmers</h2>
+            <p>Not all ducks stay on the surface! Some ducks are amazing underwater athletes called <strong>diving ducks</strong>. These ducks don't just float and dabble — they dive deep to find their food.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🌊 Where Do Diving Ducks Live?</h2>
+            <p>Diving ducks prefer big, deep bodies of water, such as:</p>
+            <ul>
+                <li>Large lakes</li>
+                <li>Wide rivers</li>
+                <li>Deep ponds</li>
+                <li>Coastal bays</li>
+                <li>Ocean inlets</li>
+            </ul>
+            <p>They choose these places because that's where their favorite foods live — underwater!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🍽️ What Do They Eat?</h2>
+            <p>Diving ducks are like underwater hunters. They dive down to grab:</p>
+            <ul>
+                <li>Fish</li>
+                <li>Shellfish</li>
+                <li>Aquatic plants</li>
+                <li>Mollusks (like clams and snails)</li>
+            </ul>
+            <p>They can stay underwater for several seconds at a time, using their strong legs to push themselves down like little feathered submarines.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🦶 Built for Swimming, Not Walking</h2>
+            <p>Diving ducks have a special body design:</p>
+            <ul>
+                <li>Their legs are placed farther back on their bodies.</li>
+                <li>This makes them excellent swimmers — they can kick powerfully underwater.</li>
+                <li>But it also makes walking on land a little awkward, so they spend most of their time in the water.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>✈️ How They Take Off</h2>
+            <p>Unlike puddle ducks that can jump straight into the air, diving ducks usually:</p>
+            <ul>
+                <li>Run across the water to build speed</li>
+                <li>Or fly low over the surface before lifting off</li>
+            </ul>
+            <p>It's like they need a little runway to get going!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🪽 How to Spot One</h2>
+            <p>Most diving ducks have:</p>
+            <ul>
+                <li>Whitish‑gray patches on the upper part of their wings</li>
+                <li>A more compact, sturdy body</li>
+                <li>A habit of disappearing underwater and popping up somewhere else</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>🌟 Why Diving Ducks Are Important</h2>
+            <p>Diving ducks help keep underwater ecosystems healthy by eating plants, insects, and small animals. They also show us how animals adapt to different habitats — some stay on the surface, and some dive deep!</p>
+            <p>Next time you're near a big lake or bay, keep your eyes open. If you see a duck suddenly vanish underwater… you've probably spotted a diving duck!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🦆 Other Ducks You Can Spot in Texas</h2>
+            <p class="subtitle" style="text-align: left; font-size: 1.2em; margin-bottom: 15px;">Meet the Unusual and Amazing Waterfowl of the Lone Star State!</p>
+            <p>Texas wetlands are full of all kinds of ducks — not just puddle ducks and diving ducks. Some ducks have such unique features that they look and act totally different from the ones you might see at a pond. Let's meet some of these special waterfowl!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🐤 Whistling Ducks (Tree Ducks)</h2>
+            <p>These ducks get their name from the whistling sound they make when they fly. They also have:</p>
+            <ul>
+                <li>Long legs (much longer than most ducks!)</li>
+                <li>A habit of perching in trees</li>
+                <li>A tall, elegant body shape</li>
+            </ul>
+            <p>They look almost like a mix between a duck and a flamingo — but smaller!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🦆 Stiff‑Tailed Ducks</h2>
+            <p>One of the most common stiff‑tailed ducks in Texas is the <strong>ruddy duck</strong>.</p>
+            <p>These ducks have:</p>
+            <ul>
+                <li>Short, chunky bodies</li>
+                <li>Stiff, upright tails that stick up like little flags</li>
+                <li>A funny, bouncy swimming style</li>
+            </ul>
+            <p>They're small but full of personality!</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🐟 Mergansers</h2>
+            <p>Mergansers are the fish‑eaters of the duck world. They have a special tool:</p>
+            <ul>
+                <li>A serrated bill — it looks like tiny teeth!</li>
+                <li>This helps them grab slippery fish underwater</li>
+            </ul>
+            <p>They're fast swimmers and excellent hunters.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>✨ Sea Ducks</h2>
+            <p>Some ducks prefer coastal waters and bays. They dive deep and are strong swimmers, built for life in the ocean.</p>
+            <p>Two sea ducks you might see in Texas are:</p>
+            <ul>
+                <li><strong>Common Goldeneye</strong> — known for its bright yellow eyes</li>
+                <li><strong>Bufflehead</strong> — a small, energetic duck with a big, puffy head and shiny feathers</li>
+            </ul>
+            <p>Both species visit Texas during the winter.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🌟 Why These Ducks Are Special</h2>
+            <p>Each of these ducks has its own <strong>adaptations</strong> — special body parts or behaviors that help it survive:</p>
+            <ul>
+                <li>Long legs for perching</li>
+                <li>Stiff tails for balance</li>
+                <li>Serrated bills for catching fish</li>
+                <li>Strong wings for long migrations</li>
+            </ul>
+            <p>Texas is one of the best places to see such a wide variety of waterfowl, each with its own amazing features.</p>
+            <p>Next time you're near a lake, marsh, or bay, keep your eyes open — you might spot one of these unique ducks showing off its special skills!</p>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🌟 Why Ducks Matter</h3>
+            <p>Ducks help keep wetlands healthy by spreading seeds, eating insects, and becoming part of the food web. Watching them can teach us about migration, habitats, and how animals adapt to survive.</p>
+            <p>So next time you're near a pond or marsh, look closely—you might spot a puddle duck dabbling, a drake showing off his bright feathers, or a whole flock resting after a long journey from far away!</p>
+        </div>
+    </div>
+</body>
+</html>

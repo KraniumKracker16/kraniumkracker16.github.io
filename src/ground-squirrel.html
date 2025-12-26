@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐿️ Meet the Ground & Rock Squirrels!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 25%, #7CB342 50%, #8B7355 75%, #D4A574 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+        }
+
+        .back-button:hover {
+            background: #1a6b1a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+        }
+
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.2);
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .content-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5E6D3 100%);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 15px;
+            border-left: 5px solid #8B4513;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #5D4037;
+            font-size: 1.5em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 12px;
+            background: linear-gradient(90deg, #87CEEB 0%, #FFF8DC 100%);
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        li:nth-child(even) {
+            background: linear-gradient(90deg, #98D8C8 0%, #FFFACD 100%);
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFDAB9 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 3px dashed #D2691E;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.2);
+        }
+
+        .fun-fact h3 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #8B4513;
+        }
+        
+        .deer-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border: 5px solid #228B22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+        
+        <h1>🐿️ Meet the Ground & Rock Squirrels!</h1>
+        
+        <img src="../images/ground-squirrel.jpg" alt="Ground Squirrel in Texas" class="deer-image">
+
+        <div class="content-section">
+            <h2>🌈 What Do They Look Like?</h2>
+            <p>Ground and rock squirrels are small, squirrel-like animals with:</p>
+            <ul>
+                <li>Tan to grayish-dark fur</li>
+                <li>Short legs and bushy tails</li>
+                <li>They look like regular squirrels, but they spend more time on the ground than in trees!</li>
+            </ul>
+            <p><strong>Some, like the thirteen-lined ground squirrel, have cool stripes and love hanging out near golf courses!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>📍 Where Do They Live?</h2>
+            <p>These squirrels live mostly in the western half of Texas. You'll find them in:</p>
+            <ul>
+                <li>Shortgrass prairies and grasslands 🌾</li>
+                <li>Brushy areas and shrublands 🌿</li>
+                <li>Farms and even cities—especially near golf courses ⛳</li>
+            </ul>
+            <p><strong>They dig underground burrows to live in and stay safe!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🌰 What Do They Eat?</h2>
+            <p>Ground and rock squirrels are omnivores, which means they eat both plants and animals! Their favorite foods include:</p>
+            <ul>
+                <li>Vegetation and seeds 🌱🌻</li>
+                <li>Insects and even small bits of meat 🐜🍗</li>
+            </ul>
+            <p><strong>They love to snack and store food in their burrows!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🔄 Life Cycle & Cool Behaviors of Ground & Rock Squirrels</h2>
+            
+            <h3>🐣 Baby to Grown-Up</h3>
+            <ul>
+                <li>These squirrels have 4 to 10 babies in each litter</li>
+                <li>Sometimes they have two litters per year</li>
+                <li>Babies are born in deep burrows, where it's safe and warm</li>
+                <li>They grow up learning to dig, forage, and stay alert for danger</li>
+            </ul>
+
+            <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+            <p>Ground and rock squirrels are clever and quick! Here's how they stay safe:</p>
+            <ul>
+                <li>They dig burrows to hide from predators and bad weather</li>
+                <li>Their fur colors help them blend into dirt and rocks</li>
+                <li>Some species hibernate during cold months to save energy</li>
+            </ul>
+
+            <h3>❄️ Do Ground & Rock Squirrels Hibernate?</h3>
+            <p>Some do! While not all of them hibernate:</p>
+            <ul>
+                <li>Certain species sleep through winter to stay warm and safe</li>
+                <li>Others stay active and use their burrows to hide from the cold</li>
+                <li>Their underground homes help them survive all seasons ❄️</li>
+            </ul>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🎉 Fun Challenge!</h3>
+            <p><strong>Want to play a "Squirrel Burrow Builder" game or design your own striped squirrel next?</strong></p>
+        </div>
+    </div>
+</body>
+</html>

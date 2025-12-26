@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐾 Meet the Nutria!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Trebuchet MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB 0%, #98D8C8 25%, #7CB342 50%, #8B7355 75%, #D4A574 100%);
+            background-size: 400% 400%;
+            animation: gradientShift 20s ease infinite;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #228B22;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(34, 139, 34, 0.3);
+        }
+
+        .back-button:hover {
+            background: #1a6b1a;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(34, 139, 34, 0.4);
+        }
+
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(139, 69, 19, 0.2);
+            animation: bounce 2s ease-in-out infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .content-section {
+            background: linear-gradient(135deg, #FFF8DC 0%, #F5E6D3 100%);
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 15px;
+            border-left: 5px solid #8B4513;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #228B22;
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h3 {
+            color: #5D4037;
+            font-size: 1.5em;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin: 10px 0;
+            padding: 12px;
+            background: linear-gradient(90deg, #87CEEB 0%, #FFF8DC 100%);
+            border-radius: 8px;
+            line-height: 1.6;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        li:nth-child(even) {
+            background: linear-gradient(90deg, #98D8C8 0%, #FFFACD 100%);
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #FFE4B5 0%, #FFDAB9 100%);
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 30px;
+            border: 3px dashed #D2691E;
+            box-shadow: 0 4px 15px rgba(210, 105, 30, 0.2);
+        }
+
+        .fun-fact h3 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #8B4513;
+        }
+        
+        .deer-image {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            border: 5px solid #228B22;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-button">← Back to Wildlife Guide</a>
+        
+        <h1>🐾 Meet the Nutria!</h1>
+        
+        <img src="../images/nutria.jpg" alt="Nutria in Texas" class="deer-image">
+
+        <div class="content-section">
+            <h2>🌈 What Do They Look Like?</h2>
+            <p>Nutrias are medium-sized rodents with:</p>
+            <ul>
+                <li>Grayish-brown fur</li>
+                <li>A long, round tail with just a few hairs (not flat like a beaver's!)</li>
+                <li>Webbed back feet that help them swim like champs 🏊</li>
+                <li>They kind of look like a beaver without the paddle tail</li>
+            </ul>
+            <p><strong>They're great swimmers and love the water!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>📍 Where Do They Live?</h2>
+            <p>Nutrias live in central and eastern Texas, and along the Texas coast. You'll find them in:</p>
+            <ul>
+                <li>Marshes and swamps 🌾</li>
+                <li>Ponds and lakes 💧</li>
+            </ul>
+            <p><strong>They like wet, squishy places where they can swim and snack!</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🥗 What Do They Eat?</h2>
+            <p>Nutrias are plant-eaters that love water plants! They munch on:</p>
+            <ul>
+                <li>Aquatic vegetation (plants that grow in water) 🌿</li>
+                <li>They carry their food to a special spot called a "feeding station"—like their own picnic table!</li>
+            </ul>
+            <p><strong>They're nocturnal, which means they're awake at night and sleep during the day 🌙😴</strong></p>
+        </div>
+
+        <div class="content-section">
+            <h2>🔄 Life Cycle & Cool Behaviors of Nutrias</h2>
+            
+            <h3>🐣 Baby to Grown-Up</h3>
+            <ul>
+                <li>Nutrias have babies all year long</li>
+                <li>They can have 2 to 11 babies at a time—wow!</li>
+                <li>Baby nutrias are super swimmers—they can swim and eat on their first day of life! 🐾💦</li>
+                <li>In captivity (like in zoos), they can live up to 4 years</li>
+            </ul>
+
+            <h3>🧠 Smart Survival Tricks (Adaptations)</h3>
+            <p>Nutrias are clever water critters! Here's how they stay safe and happy:</p>
+            <ul>
+                <li>Their webbed feet help them swim fast</li>
+                <li>They burrow into riverbanks with secret entrances above the water</li>
+                <li>They build resting platforms and simple nests to relax and raise their babies</li>
+                <li>Their nighttime lifestyle helps them avoid predators</li>
+            </ul>
+
+            <h3>❄️ Do Nutrias Hibernate?</h3>
+            <p>Nope! Nutrias don't hibernate. Instead:</p>
+            <ul>
+                <li>They stay active all year long</li>
+                <li>They stay warm with their thick fur</li>
+                <li>They keep swimming and eating, even when it's chilly outside ❄️</li>
+            </ul>
+        </div>
+
+        <div class="fun-fact">
+            <h3>🎉 Fun Challenge!</h3>
+            <p><strong>Want to build a marshy maze for a nutria or draw your own webbed feet next?</strong></p>
+        </div>
+    </div>
+</body>
+</html>
